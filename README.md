@@ -86,6 +86,24 @@ out = isSymmetricMatrix( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]: test if a value is a 2-dimensional ndarray-like object.
+-   [`@stdlib/assert/is-nonsymmetric-matrix`][@stdlib/assert/is-nonsymmetric-matrix]: test if a value is a non-symmetric matrix.
+-   [`@stdlib/assert/is-square-matrix`][@stdlib/assert/is-square-matrix]: test if a value is a 2-dimensional ndarray-like object having equal dimensions.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -142,6 +160,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-symmetric-matrix/main/LICENSE
 
 [symmetric-matrix]: https://en.wikipedia.org/wiki/Symmetric_matrix
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert-is-matrix-like
+
+[@stdlib/assert/is-nonsymmetric-matrix]: https://github.com/stdlib-js/assert-is-nonsymmetric-matrix
+
+[@stdlib/assert/is-square-matrix]: https://github.com/stdlib-js/assert-is-square-matrix
+
+<!-- </related-links> -->
 
 </section>
 
