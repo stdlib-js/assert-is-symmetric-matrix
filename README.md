@@ -24,38 +24,30 @@ limitations under the License.
 
 > Test if a value is a [symmetric matrix][symmetric-matrix].
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-symmetric-matrix
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-isSymmetricMatrix = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-symmetric-matrix@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var isSymmetricMatrix = require( 'path/to/vendor/umd/assert-is-symmetric-matrix/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-symmetric-matrix@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.isSymmetricMatrix;
-})();
-</script>
+var isSymmetricMatrix = require( '@stdlib/assert-is-symmetric-matrix' );
 ```
 
 #### isSymmetricMatrix( value )
@@ -80,14 +72,9 @@ var bool = isSymmetricMatrix( arr );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-symmetric-matrix@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var ndarray = require( '@stdlib/ndarray-ctor' );
+var isSymmetricMatrix = require( '@stdlib/assert-is-symmetric-matrix' );
 
 var arr = ndarray( 'generic', [ 0, 1, 1, 2 ], [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
 var out = isSymmetricMatrix( arr );
@@ -101,11 +88,6 @@ out = isSymmetricMatrix( {} );
 
 out = isSymmetricMatrix( null );
 // returns false
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -201,11 +183,11 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert-is-matrix-like/tree/umd
+[@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert-is-matrix-like
 
-[@stdlib/assert/is-nonsymmetric-matrix]: https://github.com/stdlib-js/assert-is-nonsymmetric-matrix/tree/umd
+[@stdlib/assert/is-nonsymmetric-matrix]: https://github.com/stdlib-js/assert-is-nonsymmetric-matrix
 
-[@stdlib/assert/is-square-matrix]: https://github.com/stdlib-js/assert-is-square-matrix/tree/umd
+[@stdlib/assert/is-square-matrix]: https://github.com/stdlib-js/assert-is-square-matrix
 
 <!-- </related-links> -->
 
