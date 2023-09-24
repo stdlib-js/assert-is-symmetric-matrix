@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-symmetric-matrix@deno/mod.js';
+import isSymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-symmetric-matrix@v0.1.0-deno/mod.js';
 ```
 
 #### isSymmetricMatrix( value )
@@ -69,7 +69,7 @@ var bool = isSymmetricMatrix( arr );
 
 ```javascript
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import isSymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-symmetric-matrix@deno/mod.js';
+import isSymmetricMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-symmetric-matrix@v0.1.0-deno/mod.js';
 
 var arr = ndarray( 'generic', [ 0, 1, 1, 2 ], [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
 var out = isSymmetricMatrix( arr );
